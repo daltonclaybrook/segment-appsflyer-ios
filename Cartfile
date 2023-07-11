@@ -1,2 +1,2 @@
 binary "https://raw.githubusercontent.com/AppsFlyerSDK/AppsFlyerFramework/master/Carthage/appsflyer-strict.json" ~> 6.4.0
-github "epau/segment-analytics-ios" "epau/broken-scheme-removed"
+github "pelotoncycle/pelotonfork-segment-analytics" "peloton-internal"
