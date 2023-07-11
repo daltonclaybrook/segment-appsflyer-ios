@@ -1,2 +1,2 @@
 binary "https://raw.githubusercontent.com/sebastianv1/AppsFlyerFramework/sebastianv1/distribute-dynamic-xcframework-6.4.0/Carthage/appsflyer-dynamic.json" "6.4.0-dynamic"
-github "segmentio/analytics-ios" "4.1.5"
+github "pelotoncycle/pelotonfork-segment-analytics" "193a1ff047194beecbac6bf8acb462ffc1f50e26"
