@@ -12,7 +12,7 @@
 #import <Analytics/SEGAnalytics.h>
 #import <Analytics/SEGAnalyticsUtils.h>
 #else
-@import Segment;
+@import SegmentObjC;
 #endif
 
 #import <AppsFlyerLib/AppsFlyerLib.h>
