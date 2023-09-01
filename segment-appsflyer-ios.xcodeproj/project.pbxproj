@@ -18,9 +18,9 @@
 		75A764A426712A6900F2EEA6 /* SEGAppsFlyerIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0A8F223D5CA7A00FE781F /* SEGAppsFlyerIntegrationFactory.m */; };
 		75A764A526712A6900F2EEA6 /* SEGAppsFlyerIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0A8F123D5CA7A00FE781F /* SEGAppsFlyerIntegration.m */; };
 		F9200E9D292D5C3B0005E3B9 /* AppsFlyerLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9200E9B292D5C3B0005E3B9 /* AppsFlyerLib.xcframework */; };
-		F9200E9E292D5C3B0005E3B9 /* Segment.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9200E9C292D5C3B0005E3B9 /* Segment.xcframework */; };
+		F9200E9E292D5C3B0005E3B9 /* SegmentObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9200E9C292D5C3B0005E3B9 /* SegmentObjC.xcframework */; };
 		F9200E9F292D5C660005E3B9 /* AppsFlyerLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9200E9B292D5C3B0005E3B9 /* AppsFlyerLib.xcframework */; };
-		F9200EA0292D5C660005E3B9 /* Segment.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9200E9C292D5C3B0005E3B9 /* Segment.xcframework */; };
+		F9200EA0292D5C660005E3B9 /* SegmentObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9200E9C292D5C3B0005E3B9 /* SegmentObjC.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +33,9 @@
 		47A0A8F523D5CA7A00FE781F /* SEGAppsFlyerIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAppsFlyerIntegrationFactory.h; sourceTree = "<group>"; };
 		47A0A8FD23D5CF8B00FE781F /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppsFlyerLib.framework; path = Carthage/Build/iOS/AppsFlyerLib.framework; sourceTree = "<group>"; };
 		75A764AD26712A6900F2EEA6 /* SegmentAppsFlyeriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentAppsFlyeriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		868810BD258FB606001F6545 /* Segment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Segment.framework; path = Carthage/Build/iOS/Segment.framework; sourceTree = "<group>"; };
+		868810BD258FB606001F6545 /* SegmentObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SegmentObjC.framework; path = Carthage/Build/iOS/SegmentObjC.framework; sourceTree = "<group>"; };
 		F9200E9B292D5C3B0005E3B9 /* AppsFlyerLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppsFlyerLib.xcframework; path = Carthage/Build/AppsFlyerLib.xcframework; sourceTree = "<group>"; };
-		F9200E9C292D5C3B0005E3B9 /* Segment.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Segment.xcframework; path = Carthage/Build/Segment.xcframework; sourceTree = "<group>"; };
+		F9200E9C292D5C3B0005E3B9 /* SegmentObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SegmentObjC.xcframework; path = Carthage/Build/SegmentObjC.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9200E9D292D5C3B0005E3B9 /* AppsFlyerLib.xcframework in Frameworks */,
-				F9200E9E292D5C3B0005E3B9 /* Segment.xcframework in Frameworks */,
+				F9200E9E292D5C3B0005E3B9 /* SegmentObjC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9200E9F292D5C660005E3B9 /* AppsFlyerLib.xcframework in Frameworks */,
-				F9200EA0292D5C660005E3B9 /* Segment.xcframework in Frameworks */,
+				F9200EA0292D5C660005E3B9 /* SegmentObjC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				F9200E9B292D5C3B0005E3B9 /* AppsFlyerLib.xcframework */,
-				F9200E9C292D5C3B0005E3B9 /* Segment.xcframework */,
-				868810BD258FB606001F6545 /* Segment.framework */,
+				F9200E9C292D5C3B0005E3B9 /* SegmentObjC.xcframework */,
+				868810BD258FB606001F6545 /* SegmentObjC.framework */,
 				47A0A8FD23D5CF8B00FE781F /* AppsFlyerLib.framework */,
 			);
 			name = Frameworks;
